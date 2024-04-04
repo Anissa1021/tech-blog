@@ -8,7 +8,8 @@ For the Tech Blog assignment we were asked to make a blog where individuals are 
 * [Deployed Link](#deployed-link)
 * [Usage](#usage)
 * [Tech](#tech)
-* [Views](#views)
+* [Example](#example)
+* [Note](#note)
 * [Questions](#questions)
 ## User Story
 ```
@@ -55,14 +56,17 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ## Deployed Link
 
 ## Usage
-- `mysql -u -p`
-- create `.env` file
+- `npm i`
+- `mysql -uroot -p`
+- `quit` afer login
+- create `.env` file and include
 ```
 DB_NAME='tech_blog_db'
 DB_USER='root'
-DB_PASSWORD='Justopen1818'
-DB_SESSION_SECRET='Justopen1818'
+DB_PASSWORD=''
+DB_SESSION_SECRET=''
 ```
+- Enter password
 - `node server.js`
 ## Tech
 - `Express`
@@ -73,7 +77,10 @@ DB_SESSION_SECRET='Justopen1818'
 - `Express-session`
 - `Express-session-sequelize`
 
-## Views
-
+## Example
+https://watch.screencastify.com/v/AYKO5XL0bLBh36sa6RiH
+## Note
+I was not able to deploy this application to Heroku I have tried many times but can't seem to get it. It is still functional you will just need to run it on your machine. Thank you.
 ## Questions
 [Anissa1021](https://github.com/Anissa1021)
+
